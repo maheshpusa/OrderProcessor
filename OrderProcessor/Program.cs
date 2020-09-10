@@ -6,7 +6,8 @@ namespace OrderProcessor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Please enter product type 1. Book  2. PhysicalProduct 3.Membership!");
+
         }
     }
 }
