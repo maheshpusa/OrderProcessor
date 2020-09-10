@@ -19,5 +19,17 @@ namespace OrderProcessor.BusinessRules.Abstract
             //Here comes the logic for calculating agent commission and generate slip.
             Console.WriteLine("Agent commison is");
         }
+
+        public void ActivateMembership()
+        {
+            //Here comes the logic for Activating membership
+            Console.WriteLine("Membership got activated");
+        }
+
+        public void UpgradeMembership()
+        {
+            //Here comes the logic for Ugrading membership
+            Console.WriteLine("Membership got upgraded");
+        }
     }
 }

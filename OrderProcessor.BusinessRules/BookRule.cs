@@ -5,12 +5,16 @@ using System.Text;
 
 namespace OrderProcessor.BusinessRules
 {
-    class BookRule : BaseProductRule, IProcessOrderRule
+    public class BookRule : BaseProductRule, IProcessOrderRule
     {
         public override void ProcessOrder() 
         {
+            //for customer
             GeneratePackingSlip();
+
+            //for royalty
             GeneratePackingSlip();
+
             GenerateAgentCommission();
         }
     }
