@@ -4,8 +4,8 @@ using System.Text;
 
 namespace OrderProcessor.BusinessRules.Abstract
 {
-    public interface IBusinessRule
+    public interface IProcessOrderRule
     {
-        void GeneratePackingSlip();
+        void ProcessOrder();
     }
 }

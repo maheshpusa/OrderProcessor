@@ -5,14 +5,14 @@ namespace OrderProcessor.Helper
 {
     public class ProcessPackage
     {
-        IBusinessRule _businessRule;
-        public ProcessPackage(IBusinessRule businessRule)
+        IProcessOrderRule _businessRule;
+        public ProcessPackage(IProcessOrderRule businessRule)
         {
             _businessRule = businessRule;
         }
         public void processpackage(string prodcutCategory)
         {
-            prodcutCategory
+              
         }
     }
 }

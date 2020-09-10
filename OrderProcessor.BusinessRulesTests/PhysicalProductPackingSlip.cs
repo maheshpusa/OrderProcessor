@@ -2,7 +2,7 @@
 
 namespace OrderProcessor.BusinessRulesTests
 {
-    public class Class1
+    public class PhysicalPackingSlip
     {
     }
 }

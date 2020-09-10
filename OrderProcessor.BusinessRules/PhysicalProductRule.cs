@@ -5,11 +5,14 @@ using System.Text;
 
 namespace OrderProcessor.BusinessRules
 {
-    class PhysicalProductRule : IBusinessRule
+    class PhysicalProductRule : BaseProductRule, IProcessOrderRule
     {
-        public void GeneratePackingSlip()
+        public override void ProcessOrder()
         {
-
+            GeneratePackingSlip();
+            GenerateAgentCommission();            
         }
+
+       
     }
 }
